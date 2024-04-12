@@ -1,0 +1,177 @@
+.Blog-banner
+{
+    width: 100%;
+    display: block;
+}
+.Blog-banner-wraper
+{
+    width: 1480px;
+    margin: 5px auto;
+}
+.Blog-banner-wraper img
+{
+    width: 100%;
+    height: 400px;
+}
+.contactus
+{
+    width: 100%;
+    display: block;
+}
+.head02
+{
+    width: 90%;
+    float: left;
+    margin: 62px 76px;
+    background: antiquewhite;
+}
+.head02 img
+{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 19px 25px;
+}
+.head02 h1
+{
+
+float: left;
+
+margin: 20px 0px;
+}
+.head
+{
+    width: 1480px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.map
+{
+    width: 628px;
+}
+.mapheading
+{
+    float: left;
+    margin: 0px 0px;
+}
+.maplocation iframe
+{
+    width: 100%;
+}
+.map1
+{
+    width: 529px;
+}
+.location-address
+{
+   width: 90%;
+   margin: 0px auto;
+ 
+}
+.location-address img
+{
+    width: 25px;
+    height: 25px;
+    margin: 9px 0px;
+    float: left;
+}
+.location-address p
+{
+    width: 443px;
+    float: inline-end;
+    /* display: block; */
+    float: left;
+    margin: 20px 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .Blog-banner
+{
+    width: 100%;
+    display: block;
+}
+.Blog-banner-wraper
+{
+    width: 90%;
+    margin: 5px auto;
+}
+.Blog-banner-wraper img
+{
+    width: 100%;
+    height: 400px;
+}
+.contactus
+{
+    width: 100%;
+    display: block;
+}
+.head02
+{
+    width: 90%;
+    float: left;
+    margin: 58px 24px;
+    background: antiquewhite;
+}
+.head02 img
+{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 19px 25px;
+}
+.head02 h1
+{
+
+float: left;
+
+margin: 20px 0px;
+}
+.head
+{
+    width: 90%;
+    margin: 60px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.map
+{
+    width: 628px;
+}
+.mapheading
+{
+    float: left;
+    margin: 0px 0px;
+}
+.maplocation iframe
+{
+    width: 100%;
+}
+.map1
+{
+    width: 529px;
+}
+.location-address
+{
+   width: 90%;
+   margin: 0px auto;
+ 
+}
+.location-address img
+{
+    width: 25px;
+    height: 25px;
+    margin: 9px 0px;
+    float: left;
+}
+.location-address p
+{
+    width: 432px;
+    float: inline-end;
+    /* display: block; */
+    float: left;
+    margin: 20px 0px;
+}
+
+}

@@ -1,0 +1,780 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+/***************hrader-part-open***********/
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 11px 28px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-btn {
+  cursor: pointer;
+  display: none;
+}
+
+.menu-btn span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 0px 119px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 10px 0px;
+  padding: 0;
+  display: flex;
+}
+
+.menu ul li {
+  margin: 15px 11px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 13px 42px;
+}
+.menu ul li a:hover
+{
+  background-color: antiquewhite;
+  color: black;
+  border-radius: 3px;
+}
+.active{
+  background-color: antiquewhite;
+  color: black !important;
+  border-radius: 3px;
+}
+
+.content {
+  padding: 20px;
+}
+.menu span
+{
+  display: none;
+  cursor: pointer;
+}
+.logo 
+{
+  display: block;
+  width: 100px;
+  height: 40px;
+  margin: 14px 74px;
+}
+.logo img
+{
+  width: 100%;
+  height: 100%;
+}
+.header-image
+{
+  display: flex;
+  width: 268px;
+  height: 40px;
+  margin: 14px 0px;
+}
+.header-image a 
+{
+  width: 100%;
+  height: 40px;
+  margin: 0px 6px;
+}
+.header-image a img
+{
+  width: 100%;
+  height: 40px;
+  margin: 0px 9px;
+}
+/******************header-part-closed****************/
+/******************banner-part-open******************/
+.banner
+{
+  width: 100%;
+  float: left;
+  margin: 0px auto;
+}
+.banner img
+{
+  width: 100%;
+  height: 350px;
+  padding: 0px 0px;
+  margin: 0px 0px;
+  float: left;
+}
+/******************banner-part-close******************/
+
+/******************welocme-part-open******************/
+.welcome
+{
+  width: 100%;
+  min-width: 100px;
+  height: auto;
+  float: left;
+}
+.welcome h1
+{
+  padding: 0px 0px;
+  margin: 40px 0px;
+  color:  blueviolet;
+  text-align: center;
+}
+.welcome p
+{
+  width: 1170px;
+  padding: 0px 0px;
+  margin: 0px 0px 0px 137px;
+  color: rgb(154, 153, 153);
+  text-align: center;
+  line-height: 28px;
+  font-size: 20px;
+}
+.read
+{
+  width: 100px;
+  margin: 0px auto;
+}
+.read a
+{
+  padding: 10px 15px;
+  margin: 75px 0px;
+  text-decoration: none;
+  float: left;
+  color: black;
+  border-radius: 6px;
+  background-color: rgb(243, 12, 12);
+}
+/******************welocme-part-close******************/
+/******************line-part-close******************/
+.line
+{
+width: 475px;
+height: 4px;
+float: left;
+margin: 0px 0px;
+}
+.green
+{
+  background-color: green;
+}
+.grey
+{
+  background-color: red;
+}
+.blue
+{
+  background-color: blue;
+}
+/******************line-part-close******************/
+/******************Service-part-open********************/
+.service
+{
+  width: 100%;
+  min-height: 250px;
+  height: auto;
+  float: left;
+  background-color: #e7e7e7;
+}
+.service-wraper
+{
+  width: 1170px;
+  margin: 0px auto;
+}.service-wraper h2
+{
+  padding: 0px 0px;
+  margin: 76px 0px;
+  text-align: center;
+  color: #f00;
+  font-weight: bold;
+  font-size: 30px;
+}
+.image
+{
+  width: 390px;
+  min-height: 350px;
+  height: auto;
+  padding: 0px 0px;
+  margin: 0px 0px;
+  float: left;
+}
+.computer
+{
+  width: 96%;
+  height: 250px;
+  float: left;
+  margin: 5px 0px;
+  padding: 0px 0px;
+  border: 2px solid rgb(136, 134, 134);
+  
+}
+.computer img
+{
+  width: 361px;
+  height: 239px;
+  padding: 5px 7px 6px 6px;
+  margin: 0px 0px;
+}
+.image h2
+{
+  padding: 0px 0px;
+  margin: 19px 0px 0px 0px;
+  float: left;
+  color: #f00;
+  font-size: 20px;
+}
+.image p
+{
+  padding: 0px 0px;
+  margin: 30px 38px 0px 0px;
+  float: left;
+  color: rgb(153, 152, 152);
+  font-size: 14px;
+  text-align: justify;
+  line-height: 22px;
+}
+.image ul
+{
+  padding: 0px 0px 0px 0px;
+  margin: 18px 0px 0px 0px;
+  float: left;
+}
+.image ul li
+{
+  padding: 10px 0px 0px 0px;
+  margin:  0px 0px 0px 0px;
+  float: left;
+  color: green;
+  list-style: none;
+  font-weight: bold;
+}.image ul li img
+{
+  width: 25px;
+  height: 19px;
+  float: left;
+  padding: 0px 4px 0px 0px;
+  margin: 0px 0px;
+}
+.button1
+{
+  width: 383px;
+  margin: 0px auto;
+}
+.button1 a
+{
+  padding: 10px 10px 10px 10px;
+  margin: 53px 0px;
+  float: left;
+  text-decoration: none;
+  color: black;
+  border-radius: 6px;
+  background-color: rgb(243, 12, 12);
+}
+/******************Service-part-open********************/
+/*****************photo-part-open**********************/
+.photo
+{
+  width: 100%;
+  min-height: 250px;
+  height: auto;
+  float: left;
+  
+
+}
+.photo-wraper
+{
+  width: 1170px;
+  margin: 0px auto;
+  background-color: rgb(193, 193, 193);
+}
+.photo-wraper img
+{
+  width: 328px;
+  height: 250px;
+  padding: 0px 28px;
+  margin: 42px 0px;
+}
+/*****************photo-part-open**********************/  
+/*****************location-part-open**********************/
+.location
+{
+  width: 100%;
+  min-height: 150px;
+  height: auto;
+  float: left;
+  background-color: grey;
+}
+.location-wraper
+{
+  width: 1170px;
+  margin: 0px auto;
+}
+.box
+{
+  width: 346px;
+  min-height: 92px;
+  height: auto;
+  float: left;
+  padding: 0px 0px;
+  margin: 19px 22px;
+}
+.circle
+{
+  width: 100px;
+  height: 100px;
+  float: left;
+  border-radius: 50%;
+  margin: 20px 9px;
+  background-color: black;
+}
+.circle img
+{
+  width: 77px;
+  height: 77px;
+  padding: 0px 0px;
+  margin: 10px 12px;
+  float: left;
+}
+.box h4
+{
+  padding: 0px 0px;
+  margin: 15px 10px 0px 13px;
+  float: left;
+}
+.box p
+{
+  padding: 0px 0px;
+  margin: 23px 4px;
+  float: left;
+  width: 189px;
+}
+/*****************location-part-close**********************/ 
+/*****************footer-part-open**********************/
+.footer
+{
+  width: 100%;
+  min-height: 50px;
+  height: auto;
+  float: left;
+}
+.footer-wraper
+{
+  width: 1170px;
+  margin: 0px auto;
+}
+.footer-wraper ul
+{
+  padding: 0px;
+  margin: 2px 0px 0px 290px;
+  float: left;
+}
+.footer-wraper ul li
+{
+  display: inline;
+  padding: 0px 0px;
+  margin: 14px 35px;
+  float: left;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+.footer-wraper img
+{
+  width: 25px;
+  height: 26px;
+  float: right;
+  padding: 0px 0px;
+  margin: 10px 23px;
+}
+/*****************footer-part-close**********************/  
+
+
+
+@media screen and (max-width: 768px) {
+  .menu {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    height: 63%;
+    width: 250px;
+    background-color: #333;
+    padding-top: 60px;
+    transition: right 0.3s ease;
+  }
+.menu ul {
+   position: absolute;
+   display: block;
+}
+.menu ul li{
+  margin: 49.8px 0px;
+}
+.menu ul li a{
+  padding: 17px 87px;
+  margin: 0px 0px;
+}
+.menu ul li a:hover
+{
+  background-color: antiquewhite;
+  color: black;
+}
+  .menu.active {
+    right: 0;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .content {
+    margin-left: 250px;
+  }
+  .menu span{
+    display: block;
+   position: absolute;
+   top: 8px;
+   right: 27px;
+   font-size: 26px;
+
+  }
+  .logo 
+  {
+    display: block;
+    width: 100px;
+    height: 40px;
+    margin: 0px 0px;
+  }
+  .logo img
+  {
+    width: 100%;
+    height: 100%;
+  }
+  .header-image
+  {
+    display: none;
+    width: 268px;
+    height: 40px;
+    margin: 0px 206px 0px 1px;
+  }
+  .header-image a 
+  {
+    width: 100%;
+    height: 40px;
+    margin: 0px 9px;
+  }
+  .header-image a img
+  {
+    width: 100%;
+    height: 40px;
+    margin: 0px 9px;
+  }
+  /******************banner-part-open******************/
+.banner
+{
+  width: 100%;
+  float: left;
+  margin: 0px auto;
+}
+.banner img
+{
+  width: 100%;
+  height: 350px;
+  padding: 0px 0px;
+  margin: 0px 0px;
+  float: left;
+}
+/******************banner-part-close******************/
+
+/******************welocme-part-open******************/
+.welcome
+{
+  width: 100%;
+  min-width: 100px;
+  height: auto;
+  /* float: left; */
+  margin: 0px auto;
+}
+.welcome h1
+{
+  padding: 0px 0px;
+  margin: 40px 0px;
+  color:  blueviolet;
+  text-align: center;
+}
+.welcome p
+{
+  width: 90%;
+  padding: 0px 0px;
+  margin: 0px auto;
+  color: rgb(154, 153, 153);
+  text-align: center;
+  line-height: 28px;
+  font-size: 20px;
+}
+.read
+{
+  width: 100px;
+  margin: 0px auto;
+}
+.read a
+{
+  padding: 10px 15px;
+  margin: 75px 0px;
+  text-decoration: none;
+  float: left;
+  color: black;
+  border-radius: 6px;
+  background-color: rgb(243, 12, 12);
+}
+/******************welocme-part-close******************/
+/******************line-part-close******************/
+.line
+{
+width: 100%;
+height: 4px;
+float: left;
+margin: 0px 0px;
+}
+.green
+{
+  background-color: green;
+}
+.grey
+{
+  background-color: red;
+}
+.blue
+{
+  background-color: blue;
+}
+/******************line-part-close******************/
+/******************Service-part-open********************/
+.service
+{
+  width: 100%;
+  min-height: 250px;
+  height: auto;
+  float: left;
+  background-color: #e7e7e7;
+}
+.service-wraper
+{
+  width: 90%;
+  margin: 0px auto;
+}.service-wraper h2
+{
+  padding: 0px 0px;
+  margin: 76px 0px;
+  text-align: center;
+  color: #f00;
+  font-weight: bold;
+  font-size: 30px;
+}
+.image
+{
+  width: 390px;
+  min-height: 350px;
+  height: auto;
+  padding: 0px 0px;
+  margin: 11px 5%;
+  float: left;
+}
+.computer
+{
+  width: 96%;
+  height: 250px;
+  float: left;
+  margin: 5px 0px;
+  padding: 0px 0px;
+  border: 2px solid rgb(136, 134, 134);
+  
+}
+.computer img
+{
+  width: 361px;
+  height: 239px;
+  padding: 5px 7px 6px 6px;
+  margin: 0px 0px;
+}
+.image h2
+{
+  padding: 0px 0px;
+  margin: 19px 0px 0px 0px;
+  float: left;
+  color: #f00;
+  font-size: 20px;
+}
+.image p
+{
+  padding: 0px 0px;
+  margin: 30px 38px 0px 0px;
+  float: left;
+  color: rgb(153, 152, 152);
+  font-size: 14px;
+  text-align: justify;
+  line-height: 22px;
+}
+.image ul
+{
+  padding: 0px 0px 0px 0px;
+  margin: 18px 0px 0px 0px;
+  float: left;
+}
+.image ul li
+{
+  padding: 10px 0px 0px 0px;
+  margin:  0px 0px 0px 0px;
+  float: left;
+  color: green;
+  list-style: none;
+  font-weight: bold;
+}.image ul li img
+{
+  width: 25px;
+  height: 19px;
+  float: left;
+  padding: 0px 4px 0px 0px;
+  margin: 0px 0px;
+}
+.button1
+{
+  width: 383px;
+  margin: 0px auto;
+}
+.button1 a
+{
+  padding: 10px 10px 10px 10px;
+  margin: 53px 0px;
+  float: left;
+  text-decoration: none;
+  color: black;
+  border-radius: 6px;
+  background-color: rgb(243, 12, 12);
+}
+/******************Service-part-open********************/
+/*****************photo-part-open**********************/
+.photo
+{
+  width: 100%;
+  min-height: 250px;
+  height: auto;
+  float: left;
+  
+
+}
+.photo-wraper
+{
+  width: 90%;
+  margin: 0px auto;
+  background-color: rgb(193, 193, 193);
+}
+.photo-wraper img
+{
+  width: 328px;
+  height: 250px;
+  padding: 0px 28px;
+  margin: 42px 0px;
+}
+/*****************photo-part-open**********************/  
+/*****************location-part-open**********************/
+.location
+{
+  width: 100%;
+  min-height: 150px;
+  height: auto;
+  float: left;
+  background-color: grey;
+}
+.location-wraper
+{
+  width: 90%;
+  margin: 0px auto;
+}
+.box
+{
+  width: 346px;
+  min-height: 92px;
+  height: auto;
+  float: left;
+  padding: 0px 0px;
+  margin: 19px 22px;
+}
+.circle
+{
+  width: 100px;
+  height: 100px;
+  float: left;
+  border-radius: 50%;
+  margin: 20px 9px;
+  background-color: black;
+}
+.circle img
+{
+  width: 77px;
+  height: 77px;
+  padding: 0px 0px;
+  margin: 10px 12px;
+  float: left;
+}
+.box h4
+{
+  padding: 0px 0px;
+  margin: 15px 10px 0px 13px;
+  float: left;
+}
+.box p
+{
+  padding: 0px 0px;
+  margin: 23px 4px;
+  float: left;
+  width: 189px;
+}
+/*****************location-part-close**********************/ 
+/*****************footer-part-open**********************/
+.footer
+{
+  width: 100%;
+  min-height: 50px;
+  height: auto;
+  float: left;
+}
+.footer-wraper
+{
+  width: 90%;
+  margin: 0px auto;
+}
+.footer-wraper ul
+{
+  padding: 0px;
+  margin: 0px 95px;
+  float: left;
+}
+.footer-wraper ul li
+{
+  display: inline;
+  padding: 0px 0px;
+  margin: 14px 35px;
+  float: left;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+.footer-wraper img
+{
+  width: 25px;
+  height: 26px;
+  float: right;
+  padding: 0px 0px;
+  margin: 33px 41px;
+}
+/*****************footer-part-close**********************/  
+}

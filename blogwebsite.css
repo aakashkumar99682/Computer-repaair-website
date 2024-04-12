@@ -1,0 +1,170 @@
+.Blog-banner
+{
+    width: 100%;
+}
+.Blog-banner-wraper
+{
+    width: 1480px;
+    margin: 5px auto;
+}
+.Blog-banner-wraper img
+{
+    width: 100%;
+    height: 400px;
+}
+.Blog-welcome
+{
+    width: 100%;
+}
+.Blog-welcome h1
+{
+    text-align: center;
+    margin: 89px 0px;
+}
+.heading3 
+{
+    width: 1480px;
+    margin: 74px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.heading3 p
+{
+    width: 406px;
+    height: 230px;
+    margin: 0px 0px;
+    font-size: 25px;
+    line-height: normal;
+    padding: 23px 30xp;
+}
+.heading3 img
+{
+    width: 566px;
+    height: 223px;
+    margin: 0px 0px;
+}
+
+.heading4
+{
+    width: 100%;
+    display: block;
+
+}
+.heading4-wraper
+{
+    width: 500px;
+    margin: 100px auto;
+    border: 1px solid black;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+.heading4-wraper h2
+{
+    text-align: center;
+}
+.heading4-wraper label
+{
+   margin: 0px 141px;
+}
+.heading4-wraper input
+{
+    width: 226px;
+    margin: 15px 134px;
+}
+.heading4 textarea
+{
+    width: 226px;
+    height: 127px;
+    margin: 28px 134px;
+}
+.message1 label
+{
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .Blog-banner
+    {
+        width: 100%;
+    }
+    .Blog-banner-wraper
+    {
+        width: 90%;
+        margin: 5px auto;
+    }
+    .Blog-banner-wraper img
+    {
+        width: 100%;
+        height: 400px;
+    }
+    .Blog-welcome
+    {
+        width: 100%;
+    }
+    .Blog-welcome h1
+    {
+        text-align: center;
+        margin: 89px 0px;
+    }
+    .heading3 
+    {
+        width: 90%;
+        margin: 74px auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .heading3 p
+    {
+        width: 407px;
+        height: 230px;
+        margin: 0px 0px;
+        font-size: 25px;
+        line-height: normal;
+        padding: 23px 30xp;
+    }
+    .heading3 img
+    {
+        width: 407px;
+        height: 296px;
+        margin: 103px 0px 0pc 0pc;
+    }
+    
+    .heading4
+    {
+        width: 100%;
+        /* display: block; */
+    }
+    .heading4-wraper
+    {
+        width: 90%;
+        margin: 100px auto;
+        border: 1px solid black;
+        background-color: antiquewhite;
+        border-radius: 5px;
+    }
+    .heading4-wraper h2
+    {
+        text-align: center;
+    }
+    .heading4-wraper label
+    {
+       margin: 0px 106px;
+    }
+    .heading4-wraper input
+    {
+        width: 226px;
+        margin: 21px 101px;
+    }
+    .heading4 textarea
+    {
+        width: 226px;
+        height: 127px;
+        margin: 28px 101px;
+    }
+    .message1 label
+    {
+        width: 100%;
+    }   
+}
